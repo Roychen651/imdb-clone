@@ -16,7 +16,7 @@ A visually stunning and feature-rich web application that replicates IMDb functi
 
 🚀 Live Demo
 
-Check out the live version here: (https://roy-imdb-clone.netlify.app/)
+[Check out the live version here:] (https://roy-imdb-clone.netlify.app/).
 
 🛠️ Built With
 
@@ -69,19 +69,6 @@ http://localhost:3000
 Run the following command to execute tests:
 
 npm test
-
-📂 Project Structure
-
-├── src
-│ ├── components # Reusable React components
-│ ├── pages # Pages for routing
-│ ├── services # API calls
-│ ├── context # State management with Context API
-│ └── assets # Images and static assets
-├── public # Public files
-├── .env # Environment variables
-├── package.json # Dependencies and scripts
-└── README.md # Project documentation
 
 🌐 API Integration
 
