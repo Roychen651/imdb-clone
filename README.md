@@ -29,9 +29,9 @@ Package Manager: npm
 🖼️ Screenshots
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img width="350px" height="400px" src="/screenshot1.png"/> 
-    <img width="350px" height="400px" src="/screenshot2.png"/> 
-    <img width="350px" height="400px" src="/screenshot3.png"/> 
+    <img width="350px" height="400px" src="./public/screenshot1.png"/> 
+    <img width="350px" height="400px" src="./public/screenshot2.png"/> 
+    <img width="350px" height="400px" src="./public/screenshot3.png"/> 
 </div>
 
 📦 Installation and Setup
