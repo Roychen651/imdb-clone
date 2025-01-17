@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+⭐TMDB IMDb Clone⭐
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A visually stunning and feature-rich web application that replicates IMDb functionality, using The Movie Database (TMDB) API for real-time movie data.
 
-## Available Scripts
+🌟 Features
 
-In the project directory, you can run:
+🎬 Discover Movies and TV Shows: Browse trending movies, top-rated films, and upcoming releases.
 
-### `npm start`
+🔍 Search Functionality: Easily find movies, TV shows, and actors.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📃 Detailed Pages: View in-depth details about movies, including cast, trailers, and reviews.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+⭐ Add to Favorites: Save your favorite movies and shows.
 
-### `npm test`
+🎥 Responsive Design: Fully optimized for desktop, tablet, and mobile.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚀 Live Demo
 
-### `npm run build`
+Check out the live version here: (https://roy-imdb-clone.netlify.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Frontend: React, React Router, CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Backend/Services: TMDB API
 
-### `npm run eject`
+Package Manager: npm
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🖼️ Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<div style="display: flex; flex-wrap: wrap;">
+    <img width="350px" height="400px" src="/screenshot1.png"/> 
+    <img width="350px" height="400px" src="/screenshot2.png"/> 
+    <img width="350px" height="400px" src="/screenshot3.png"/> 
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📦 Installation and Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the repository:
 
-## Learn More
+git clone https://github.com/Roychen651/imdb-clone.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Navigate to the project directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+cd imdb-clone
 
-### Code Splitting
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm install
 
-### Analyzing the Bundle Size
+Add your TMDB API key:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Create a .env file in the root directory.
 
-### Making a Progressive Web App
+Add the following line:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+REACT_APP_TMDB_API_KEY=your_tmdb_api_key
 
-### Advanced Configuration
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm start
 
-### Deployment
+Open your browser and visit:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+http://localhost:3000
 
-### `npm run build` fails to minify
+🧪 Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Run the following command to execute tests:
+
+npm test
+
+📂 Project Structure
+
+├── src
+│ ├── components # Reusable React components
+│ ├── pages # Pages for routing
+│ ├── services # API calls
+│ ├── context # State management with Context API
+│ └── assets # Images and static assets
+├── public # Public files
+├── .env # Environment variables
+├── package.json # Dependencies and scripts
+└── README.md # Project documentation
+
+🌐 API Integration
+
+This project uses TMDB API for fetching movie data. You need to sign up for an API key and add it to your .env file as shown above.
+
+🗺️ Roadmap
+
+🤝 Contributing
+
+Contributions are welcome! If you'd like to improve this project, follow these steps:
+
+Fork the repository.
+
+Create a new branch (git checkout -b feature-branch-name).
+
+Commit your changes (git commit -m 'Add some feature').
+
+Push to the branch (git push origin feature-branch-name).
+
+Open a Pull Request.
+
+📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+💬 Acknowledgments
+
+The Movie Database (TMDB) for the API.
+
+Create React App for bootstrapping the project.
+
+Inspiration from IMDb and other movie database platforms.
