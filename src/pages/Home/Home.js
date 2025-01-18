@@ -3,7 +3,6 @@ import "./Home.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
-import Card from "../../components/Card/Card";
 import MoviesList from "../../components/MoviesList/MoviesList";
 
 const API_KEY = "2c2230d49faab60eaa90ea7262ab135e";
@@ -13,15 +12,23 @@ const Home = () => {
   const [popularMovies, setPopularMovies] = useState([]);
 
   useEffect(() => {
-    fetch(`${API_POPULAR}?api_key=${API_KEY}`)
-      .then((response) => response.json())
-      .then((data) => setPopularMovies(data.results));
+    const fetchPopularMovies = async () => {
+      try {
+        const response = await fetch(`${API_POPULAR}?api_key=${API_KEY}`);
+        const data = await response.json();
+        setPopularMovies(data.results);
+      } catch (error) {
+        console.error("Error fetching popular movies:", error);
+      }
+    };
+
+    fetchPopularMovies();
   }, []);
 
   return (
     <>
       <div className="poster">
-        <Carousel
+        {/* <Carousel
           showThumbs={false}
           autoPlay={true}
           transitionTime={3}
@@ -57,7 +64,7 @@ const Home = () => {
               </div>
             </Link>
           ))}
-        </Carousel>
+        </Carousel> */}
         <MoviesList />
       </div>
     </>
